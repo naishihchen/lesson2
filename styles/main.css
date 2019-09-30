@@ -1,5 +1,5 @@
 body {
-    font-family: "Arial";
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 main {
@@ -43,6 +43,8 @@ h2 {
     flex-wrap: wrap;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+    border-radius: 25px;
+    background-color: #D3D3D3;
 }
 .col:first-child { margin-left: 0; }
 
@@ -54,18 +56,18 @@ h2 {
 
 /*  GRID OF THREE  */
 @media only screen and (max-device-width: 1200px) {
-.span_3_of_3 { max-width: 30%; width: 200px; }
-.span_2_of_3 { max-width: 30%; width: 200px; }
-.span_1_of_3 { max-width: 30%; width: 200px; }
+.span_3_of_3 { max-width: 30%; width: 200px; overflow: hidden;}
+.span_2_of_3 { max-width: 30%; width: 200px; overflow: hidden;}
+.span_1_of_3 { max-width: 30%; width: 200px; overflow: hidden;}
 
 }
 
 
 @media only screen and (max-device-width: 200px) {
     .col {  margin: 5% 0 5% 5%; }
-    .span_3_of_3 { max-width: 50%; }
-    .span_2_of_3 { max-width: 66.13%; }
-    .span_1_of_3 { max-width: 32.26%; }
+    .span_3_of_3 { max-width: 50%; overflow: hidden;}
+    .span_2_of_3 { max-width: 66.13%; overflow: hidden;}
+    .span_1_of_3 { max-width: 32.26%; overflow: hidden;}
     
     .description { max-width: 50%;}
 }
@@ -73,7 +75,7 @@ h2 {
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-device-width: 280px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { max-width: 100%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { max-width: 100%; overflow: hidden;}
     .description {max-width: 70%;}
 }
 
