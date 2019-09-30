@@ -1,0 +1,40 @@
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: "Arial";
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fadadd;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    right: 100px;
+    top: 50px;
+    height: 200px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+}
+
+footer {
+    border-radius: 25px;
+    background-color: #fadadd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
